@@ -1,0 +1,89 @@
+html {
+  font-size: 62.5%;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+body {
+  background-image: url(../img/runner-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  
+}
+
+.stopwatch {
+  width: 90%;
+  margin: 5rem auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: .5rem;
+  padding: 1.5rem;
+}
+
+.controls {
+  display: flex;
+}
+
+button {
+  flex-grow: 1;
+  margin: 0 .5rem .4rem;
+  padding: .5rem 0;
+  border-radius: .5rem;
+  /* box-shadow: 0 .4rem rgba(0, 0, 0, 0.5); */
+  border: 3px solid;
+  outline: none;
+  font-size: 2.4rem;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all ease-in-out .2s;
+}
+
+
+
+button:active {
+    margin-bottom: 0;
+    margin-top: .4rem;
+  }
+
+  .start {
+    background-color: #fff;
+    border-color: #fff;
+    color:grey;
+  }
+    .start:hover {
+      background-color: rgb(99, 99, 99);
+      border-color: rgb(99, 99, 99);
+      color: #fff;
+    }
+  
+  .stop {
+    background-color: rgb(99, 99, 99);
+    border-color: rgb(99, 99, 99);
+    color: #fff;
+  }
+    .stop:hover {
+      background-color: #fff;
+      border-color: #fff;
+      color:grey;
+    }
+  
+  .reset {
+    background-color: black;
+    border-color: black;
+    color: grey;
+  }
+    .reset:hover {
+      background-color: #fff;
+      border-color: #fff;
+    }
+  
+  .display {
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
+  }
+   .display :not(:last-child):after {
+      content: ':';
+    }
