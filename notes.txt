@@ -1,0 +1,4 @@
+1) Make buttons go to original state after click.
+
+2) Start and row - 1 row
+   Reset - 1 row
