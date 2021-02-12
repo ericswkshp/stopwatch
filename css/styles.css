@@ -89,7 +89,7 @@ button:active {
 
     @media screen and (max-width: 360px) {
       .stopwatch {
-        ;
+        
         text-align: center;
         padding: 1rem;
        /* margin: 0; */
